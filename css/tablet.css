@@ -1,0 +1,21 @@
+
+.logo-container .logo-tittle {
+    font-size: 2.5rem;
+}
+
+.logo-container .logo-icon {
+    width: 600px;
+    height: 200px;
+}
+
+.logo-container .logo-description {
+    font-size: 2.8rem;
+}
+
+.main-beats-container .beats-description {
+    font-size: 2rem;
+}
+
+.main-lofi-container p {
+    font-size: 2rem;
+}
