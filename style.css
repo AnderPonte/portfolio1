@@ -33,7 +33,11 @@ header {
 
 
 .head-container {
+    width: 100%;
+    background-color: var(--backnegro);
     padding: 20px 5px;
+    position: fixed;
+    top: 0;
 }
 
 .title-container {
@@ -96,7 +100,7 @@ header {
 
 /* BEATS URBANOS */
 .main-beats-container {
-    padding: 20px 20px 10px;
+    padding: 60px 20px 10px;
     background-color: var(--backnegro);
     width: 100%;
     min-width: 320px;
@@ -146,7 +150,7 @@ header {
 /* LOFI BEATS */
 .main-lofi-container {
     text-align: center;
-    padding: 20px 20px;
+    padding: 60px 20px 20px;
     width: 100%;
     min-width: 320px;
     height: 100%;
@@ -180,7 +184,7 @@ header {
 /* SERVICIOS  */
 
 .main-services-container { 
-    padding: 30px 10px;
+    padding: 60px 10px 30px;
     width: 100%;
     min-width: 320px;
     height: 100%;
@@ -190,7 +194,7 @@ header {
 
 .main-services-container .services-title {
     
-    padding: 20px;
+    padding: 40px 20px 20px;
     color: var(--lettertitle2);
     font-size: 3rem;
     letter-spacing: 4px;
@@ -440,7 +444,7 @@ header {
     text-align: center;   
     width: 100%;
     min-width: 320px;
-    height: 300px;
+    height: 100%;
 }
 
 .footer-socialmedia h3 {
