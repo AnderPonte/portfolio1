@@ -1,0 +1,451 @@
+:root {
+    --backnegro: #000000;
+    --backsection: #1a1a1a;
+    --backmidOscuro: #120d12;
+    --letterTitle:  #cbd22b;
+    --lettertitle2: #c2c1c2;
+    --lettertittle3: #fefefe;
+    --lettertittle4: #c5d42e;
+    --white: #ffffff;
+    --backpurple: #0E001F;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header {
+    background-color: var(--backnegro);
+    width: 100%;
+    min-width: 320px;
+    height: 80px;
+}
+
+.head-container {
+    padding: 20px;
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+
+.title-container li {
+    padding: 10px;
+}
+
+.title-container li a {
+    color: var(--lettertittle3);
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.logo-container {      
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-width: 320px;
+    height: 100vh;
+    padding: 25px;
+    background-color: var(--backpurple);
+    
+    
+}
+
+.logo-container .logo-icon {  
+    margin: 30px 30px 0px;
+    width: 70%;
+    height: 18%;
+    
+}
+
+.logo-container .logo-title {
+    padding: 20px 20px;
+    color: var(--lettertittle3);
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+.main-beats-container {
+    padding: 20px 20px 10px;
+    background-color: var(--backnegro);
+    width: 100%;
+    min-width: 320px;
+    height: 100%;
+    
+}
+
+.main-beats-title {
+    padding: 10px;
+    color: var(--lettertitle2);
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.main-beats-list {
+    width: 100%;
+    padding: 30px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main-beats-list p {
+    width: 100%;
+    padding: 5px 5px 0px 0px;
+    color: var(--lettertittle4);
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.main-beats-list .reggaeton-list, .main-beats-list .dancehall-list, .main-beats-list .trap-list {
+    /* width: 100%; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    padding: 10px;
+}
+
+.main-lofi-container {
+    text-align: center;
+    padding: 10px 20px;
+    width: 100%;
+    min-width: 320px;
+    height: 100%;
+    background-color: var(--backnegro);
+    
+}
+
+.main-lofi-container .lofi-title {
+    padding: 10px;
+    letter-spacing: 3px;
+    color: var(--lettertitle2);
+    font-size: 3rem;
+}
+
+.lofi-list .lofi-spotify {
+    width: 100%;
+    padding: 20px 20px 40px;
+}
+
+/* SERVICIOS  */
+
+.main-services-container { 
+    padding: 20px 10px;
+    width: 100%;
+    min-width: 320px;
+    height: 100%;
+    text-align: center;
+    background-color: var(--backsection);
+}
+
+.main-services-container .services-title {
+    margin-bottom: 30px;
+    padding: 10px;
+    color: var(--lettertitle2);
+    font-size: 3rem;
+    letter-spacing: 4px;
+}
+
+.main-services-container .services-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0px;
+
+}
+/* ARTISTA NUEVO */
+.services-nuevo {
+    width: 300px;
+    height: 340px;
+    padding: 20px 30px;
+    margin: 10px 10px;
+    border-radius: 30px;
+    border-color: #7700fb;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.services-nuevo h4 {
+    color: var(--white);
+    font-size: 1.8rem;
+    font-weight: bold ;
+    letter-spacing: 3px;
+}
+
+.services-nuevo .price-nuevo {
+    padding: 15px 10px 0px;
+    font-size: 4rem;
+    color: var(--white);
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.services-nuevo ul {
+    padding: 15px 10px 40px;
+    
+}
+
+.services-nuevo ul li {
+    color: #ccc;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 5px 0px;
+    list-style-type: none;
+    text-align: justify;
+}
+
+.services-nuevo a {
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 3px #333;
+    text-decoration: none;
+}
+
+/* ARTISTA EN CREECIMIENTO */
+.services-crecimiento {
+    width: 300px;
+    height: 340px;
+    padding: 20px 30px;
+    margin: 10px 10px;
+    border-radius: 30px;
+    border-color: #00ef80;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.services-crecimiento h4 {
+    color: var(--white);
+    font-size: 1.8rem;
+    font-weight: bold ;
+    letter-spacing: 3px;
+}
+
+.services-crecimiento .price-nuevo {
+    padding: 15px 10px 0px;
+    font-size: 4rem;
+    color: var(--white);
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.services-crecimiento .price-icon {
+    font-size: 1.5rem;
+    vertical-align: top;
+}
+
+.services-crecimiento ul {
+    padding: 15px 10px 40px;
+}
+
+.services-crecimiento ul li {
+    color: #ccc;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 5px 0px;
+    list-style-type: none;
+    text-align: justify;
+}
+
+.services-crecimiento a {
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 3px #333;
+    text-decoration: none;
+}
+
+/* ARTISTA PRO */
+.services-pro {
+    width: 300px;
+    height: 340px;
+    padding: 20px 30px; 
+    margin: 10px 10px;
+    border-radius: 30px;
+    border-color: #008cff;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.services-pro h4 {
+    color: var(--white);
+    font-size: 1.8rem;
+    font-size: bold ;
+    letter-spacing: 3px;
+}
+
+.services-pro .price-nuevo {
+    padding: 15px 10px 0px;
+    font-size: 4rem;
+    color: var(--white);
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.services-pro .price-icon {
+    font-size: 1.5rem; 
+    vertical-align: top;
+}
+
+.services-pro ul {
+    padding: 15px 10px 40px;
+}
+
+.services-pro ul li {
+    color: #ccc;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 5px 0px;
+    list-style-type: none;
+    text-align: justify;
+}
+
+.services-pro a {
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 3px #333;
+    text-decoration: none;
+}
+
+/* ARTISTA PREMIUN */
+
+.services-premiun {
+    width: 300px;
+    height: 340px;
+    padding: 20px 30px; 
+    margin: 10px 10px;
+    border-radius: 30px;
+    border-color: #ec3258;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.services-premiun h4 {
+    color: var(--white);
+    font-size: 1.8rem;
+    font-size: bold ;
+    letter-spacing: 3px;
+}
+
+.services-premiun .price-nuevo {
+    padding: 15px 10px 0px;;
+    font-size: 3rem;
+    color: var(--white);
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.services-premiun .price-icon {
+    font-size: 1.5rem;
+    vertical-align: top;
+}
+
+.services-premiun ul {
+    padding: 15px 10px 40px;
+}
+
+.services-premiun ul li {
+    color: #ccc;
+    font-size: 1.3rem;
+    padding: 7px 0px;
+    list-style-type: none;
+    text-align: justify;
+}
+
+.services-premiun a {
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 3px #333;
+    text-decoration: none;
+}
+/* FOOTER */
+
+.footer-socialmedia {
+    background-color: var(--backmidOscuro);
+    text-align: center;   
+    width: 100%;
+    min-width: 320px;
+    height: 300px;
+}
+
+.footer-socialmedia h3 {
+    font-size: 3.5rem;
+    color: var(--lettertittle3);
+    padding: 40px 40px 20px;
+    letter-spacing: 3px;
+    
+}
+
+.footer-socialmedia .nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;    
+}
+
+.nav-container .instagram {
+    background-image: url("./icons/instagram.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    margin: 30px;
+}
+.nav-container .whatsapp {
+    background-image: url("./icons/whatsapp.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    margin: 30px;
+}
+.nav-container .tiktok {
+    background-image: url("./icons/tiktok.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    margin: 30px;
+}
+
+.nav-container a {
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+    font-size: 2rem;
+    color: transparent;
+}
